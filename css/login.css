@@ -1,0 +1,24 @@
+.form {
+  max-width: 400px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  gap: 30px;
+  padding-top: 120px;
+}
+input,
+button {
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  border-radius: 6px;
+}
+button {
+  background-color: #2fd5ff;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
